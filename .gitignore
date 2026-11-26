@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+*/*/*/node_modules/
+
+# Build artifacts
+dist/
+build/
+*/dist/
+*/build/
+
+# Environment variables & secrets (CRITICAL: Do not upload API keys)
+.env
+.env*.local
+*.env
+backend/.env
+
+# Python bytecode & cache
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pyc
+
+# Database files
+*.db
+*.sqlite3
+backend/*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary extracted archives if not part of main repo
+extracted_projects/
